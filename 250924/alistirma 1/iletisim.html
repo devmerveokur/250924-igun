@@ -1,0 +1,73 @@
+<html>
+
+	<head>
+		<title>Deneme Sayfası</title>
+	<head>
+
+	<body>
+		<table border="1" width="1000">
+	
+			<tr>
+				<td colspan="3" style="text-align: center;"> HEADER </td> 
+
+		      </tr>
+	
+			<tr>
+				<td colspan="3" style="text-align: center;"> 
+					
+					<a href="/index.html">ANASAYFA </a>
+					<a href="/hakkimizda.html">HAKKIMIZDA </a>
+					<a href="/">İLETİŞİM</a>
+				 </td> 
+
+		      </tr>
+			
+			<tr>
+				<td height="400" style="text-align: center;"> SIDEBAR </td> 
+				<td style="text-align: center;">
+                    <h3>İLETİŞİM</h3> 
+                    
+                    <form name="formgonder" action="iletisim.php" method="post">
+                        <table>
+                            <tr>
+                                <td><label for="adsoyad">Ad, Soyad:</label></td>
+                                <td><input type="text" name="adsoyad" id="adsoyad" /></td>
+                            </tr>
+                            <tr>
+                                <td><label for="eposta">E-Posta:</label></td>
+                                <td><input type="text" name="eposta" id="eposta" /></td>
+                            </tr>
+                            <tr>
+                                <td><label for="telefon">Telefon:</label></td>
+                                <td><input type="text" name="telefon" id="telefon" /></td>
+                            </tr>
+                            <tr>
+                                <td><label for="konu">Konu:</label></td>
+                                <td><input type="text" name="konu" id="konu" /></td>
+                            </tr>
+                            <tr>
+                                <td><label for="mesaj">Mesajınız:</label></td>
+                                <td><textarea  name="mesaj" id="mesaj" style="height:90px; width:200px" ></textarea></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2"><input type="submit" value="Gönder" name="gonder" /></td>
+                            </tr>
+                            
+                        </table>
+                    </form>
+
+                </td>
+				<td style="text-align: center;"> SIDEBAR </td>
+
+		      </tr>
+ 				
+			<tr>
+				<td colspan="3" style="text-align: center;"> FOOTER </td> 
+
+		      </tr>
+
+		</table>
+	</body>
+
+
+</html>

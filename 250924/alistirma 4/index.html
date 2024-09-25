@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Örnek 4</title>
+    <style>
+
+        .btn {
+            width: 100%;
+            background-color: indianred;
+            border: none;
+            border-radius: 5px;
+            color: #ffd7d7;
+            font-size: 12px;
+            padding: 10px 15px;
+            margin-top: 10px;
+            text-align: center;
+        
+        }
+
+        .btn:hover{
+            background-color: brown;
+            cursor: pointer;
+            color: #fff;
+        }
+        
+
+        .input {
+            width: 100%; 
+            border: 1px solid indianred; 
+            padding: 10px; 
+            border-radius: 5px; 
+            display: block; 
+            margin-bottom: 10px;
+        }
+
+        
+
+        .list{
+            color: black ;
+        }
+
+        .list li:first-child {
+            color: blueviolet;
+        }
+
+        .list .active {
+            color: red;
+        }
+
+        .list #active {
+            color: rgb(20, 115, 116);
+        }
+
+        .altmenu ul.alt{
+            display: none;
+        }
+
+        .altmenu ul.alt:hover{
+            display: block;
+        }
+
+        .bold{
+            font-weight: bold;
+        }
+
+        .orange{
+            color: orange !important;
+        }
+
+        .underline {
+            text-decoration: underline;
+        }
+
+
+    </style>
+
+</head>
+<body>
+    <input class="input" placeholder="İsim" type="text">
+
+    <textarea class="input" name="" id=""></textarea>
+
+    <button class="btn">GÖNDER</button>
+
+    <p class="active"></p>
+
+    <ul class="list">
+        <li>Test 1</li>
+        <li class="altmenu">Test 2</li>
+        <li class="active" id="active">Test 3</li>
+        <li class="bold orange underline">Test 4</li>
+        <li>Test 5</li>
+    </ul>
+    
+</body>
+</html>

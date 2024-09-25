@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Örnek 5</title>
+
+    <style>
+       
+
+        .yazi {
+            color: indianred;
+            font-family: Arial, Helvetica, sans-serif;
+            display: block;
+            
+        }
+
+        .padding{
+            padding-left: 40px;
+            padding-top: 15px;
+            padding-bottom:  10px;
+        }
+
+        .btn{
+            border: 1px transparent;
+            border-radius: 5px;
+            background-color: indianred;
+            color: #fff ;
+            padding: 10px;
+            display: block;
+        }
+
+        .btn:hover{
+            background-color: brown;
+            color: rgb(236, 205, 205);
+        }
+       
+
+        .input{
+              
+            display: block;
+            margin-left: 40px;
+            
+        }
+
+        .boyut{
+            width: 200px;
+        }
+
+        
+
+    </style>
+    
+</head>
+<body>
+
+    <br><br>
+    <h5 style="color: indianred; font-family: Arial, Helvetica, sans-serif; margin-bottom: 5px;">Bizimle İletişime Geçin</h5>
+
+    <form style="border: 2px solid indianred; border-radius: 5px; width: 300px;" action="">
+        
+
+        <label class="yazi padding" for="isim">İsim</label>
+        <input class="input boyut" type="text" name="isim" id="isim">
+        
+        <label class="yazi padding" for="eposta">E-posta</label>
+        <input class="input boyut" type="email" name="eposta" id="eposta">
+
+        <label class="yazi padding" for="mesaj">Mesaj</label>
+        <textarea style="height: 100px;" class="input boyut margin" placeholder="Mesajınızı Yazın" name="mesaj" id="mesaj"></textarea>
+
+        <button style="margin-top: 20px; margin-bottom: 20px; margin-left: 40px;" class="btn boyut padding">Gönder</button>
+    </form>
+     
+</body>
+</html>

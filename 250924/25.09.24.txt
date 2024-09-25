@@ -1,0 +1,21 @@
+25.09.24 Çarşamba 1.Ders - Oktay Bozacı Hoca
+
++ftp file transfer protocol
++vmware
++seo
++ssl sertifikası
++subdomain, domain, hosting
++source control - versiyon kontrol - git (vscode)
++live server
++emmet
++kod düzenleme vscode : shift + alt + f 
++tablo rowspan colspan
++fontawesome
+#class, class verilmeyeni ezer.
++cursor
++ !important: hepsini ezmeysi için yazılır
++ nth-child, last-child, first-child
++bootstrap grid 
++col12 md8
+
+
